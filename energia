@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mercurio.energia">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Métodos para ter mais energia !" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <Button Text="Jin Shin Jyutsu" x:Name="Jin" HorizontalOptions="FillAndExpand" Clicked="Jin_Clicked"/>
+            <Label Text="É uma arte ancestral de harmonização da energia vital no corpo, pode ser feito em qualquer posição e momento e traz resultados impressionantes para disposição física"/>
+            <Label Text="Envolva seu polegar com a palma da sua outra mão, segure com uma pressão médiam, a ponto de sentir o seu pulso, e mantenha assim por um tempo, p´restando atenção à sua respiração, em seguida faça o mesmo com o indicador, o dedo médio e os outros, em ambas as mãos - obs: este exercício pode ser 
+                   complementado se seguindo com um alongamento das mãos e braços - pode ser feito ao acordar ainda deitado para dar disposição às atividades do dia, ou em qualquer outro momento."/>
+            <Button Text="Hiperventilação" x:Name="Hiper" HorizontalOptions="FillAndExpand" Clicked="Hiper_Clicked"/>
+            <Label Text="Deve ser feito com o estômago vazio, de preferência antes da primeira refeição e parado, sentado ou deitado"/>
+            <Label Text="Respire intensamente, como se estivesse fazendo exercícios, respire rápido e profundamente, é normal ter sensações estranhas na cabeça, sentir  picadas nos braços, o corpo vibrando e eventualmente algum zumbido, esta técnica poderosa libera as toxinas do corpo e recompõe as reservas de oxigênio"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
