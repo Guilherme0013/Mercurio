@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mercurio.sentir">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Mértodos para Relaxar"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Medium" />
+
+            <Button Text="Luz Azul" x:Name="Luz" Clicked="Luz_Clicked" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Este método pode ser usado para relaxar ou para dormir podendo ser repetido"/>
+            <Label Text="Imagine uma luz azul envolvendo todos os detalhes dos seus pés, começando pelos dedos dos pés e subindo, relaxando cada musculo
+                   à medida que passa, até sua cabeça, se chegar ao topo da cabeça e nao estiver no estado desejado, começe novamente, imaginando de forma mais detalhada cada parte do seu corpo. "/>
+
+            <Button Text="Buraco Negro" x:Name="Negro" Clicked="Negro_Clicked" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Ideal para aliviar a ansiedade mental e emocional"/>
+            <Label Text="Imagine um grande buraco negro dentro de seu coração, quetransforma purifica todas as coisas à medida que passam por ele, envie toda sua respiração e pensamentos e sentimentos para este buraco negro infinito
+                   e veja se a tensão e ansiedade diminuem à medida que são transfdormadas em paz e lucidez. "/>
+
+            <Button Text="Fim da Mente Discursiva" x:Name="Mente" Clicked="Mente_Clicked" HorizontalOptions="FillAndExpand"/>
+            <Label Text="A Mente é um grande causador de ansiedade, aqui veremos formas de controlá-la"/>
+            <Label Text="O Fim da mente discursiva pode ser atingido pela meditação, com auxilio de sons da natureza ou mantrans (por exemplo o OM) também como a compreensão 
+                   de que é apenas uma visão parcial da realidade, se concentrando nas vozes interiores, e depois silenciando elas, se pode atingir um estado especial de tranquilidade"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
