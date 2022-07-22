@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mercurio.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Mercurio - Métodos rápidos de autoconhecimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="Large"/>
+        </Frame>
+        <Button Text="Métodos para relaxar"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Relaxar" Margin="10,0" Clicked="Relaxar_Clicked"/>
+        <Button Text="Para ter mais energia" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Energia" Margin="10,0" Clicked="Energia_Clicked"/>
+        <Button Text="Para se sentir melhor" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Sentir" Margin="10,0" Clicked="Sentir_Clicked"/>
+        <Button Text="outros estados de consciência" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="Outros" Margin="10,0" Clicked="Outros_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
